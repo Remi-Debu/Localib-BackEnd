@@ -1,9 +1,11 @@
 package com.localib.vehicule;
 
 import org.springframework.data.mongodb.repository.Query;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public interface VehiculeService {
     List<Vehicule> findAll();
 

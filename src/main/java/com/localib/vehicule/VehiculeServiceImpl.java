@@ -16,7 +16,7 @@ public class VehiculeServiceImpl implements VehiculeService {
     }
 
     public List<Vehicule> findAll() {
-        return this.vehiculeRepository.findAll();
+        return vehiculeRepository.findAll();
     }
 
     @Override
@@ -28,7 +28,7 @@ public class VehiculeServiceImpl implements VehiculeService {
     }
 
     public Vehicule save(Vehicule entity) {
-        return this.vehiculeRepository.save(entity);
+        return vehiculeRepository.save(entity);
     }
 
     @Override

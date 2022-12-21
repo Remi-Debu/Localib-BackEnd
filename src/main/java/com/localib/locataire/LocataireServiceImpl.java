@@ -17,7 +17,7 @@ public class LocataireServiceImpl implements LocataireService {
 
     @Override
     public List<Locataire> findAll() {
-        return this.locataireRepository.findAll();
+        return locataireRepository.findAll();
     }
 
     @Override
